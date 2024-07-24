@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main{
+  height: 97vh;
+  width: 97vw;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.buttons{
+  background-color: white;
+  height: 100px;
+  width: 90%;
+  position: relative;
+  bottom: 15px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn{
+  padding: 15px 30px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
